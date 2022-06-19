@@ -1039,7 +1039,7 @@ section {
         align-items: center;
         padding: 0px;
         margin-left: 10%;
-        max-width: 80%;
+        /* max-width: 80%; */
         /* max-width:100%; */
         /* margin-right: -100px; */
     }
@@ -1051,8 +1051,8 @@ section {
         /* max-width:100%; */
         margin-top:20px;
         padding: 0px;
-        /* margin-left: 10%; */
-        max-width: 80%;
+        margin-left: 17%;
+        /* max-width: 80%; */
     }
 
     .left-side-first {
@@ -1089,7 +1089,7 @@ section {
     }
 
     .section3-img {
-        width: 350px;
+        width: 300px;
     }
 
     .section3-heart {
@@ -1106,6 +1106,9 @@ section {
         align-items: flex-end;
         /* margin-right: -26px; */
         margin-top: 48px;
+    }
+    .section3-text3 {
+        max-width: 80%;
     }
 }
 
@@ -1214,6 +1217,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     margin-top: 50px;
 }
 
@@ -1497,15 +1501,15 @@ section {
     }
 
     .section7-img {
-        width: 400px;
+        width: 340px;
         height: 200px;
         margin-right: 0px;
     }
     .section7-box {
         /* border-style: solid; */
         border: 1px solid;
-        width: 340px;
-        height: 200px;
+        width: 280px;
+        height: 240px;
         margin-left: 0px;
         margin-top: 10px;
         padding: 30px;
@@ -2066,6 +2070,10 @@ input[type=submit]:hover {
         margin-left: 0px;
         margin-top: 50px;
     }
+    .section10-img1 {
+        width: 300px;
+        height: 127;
+    }
 }
 
 /* end of section10 css */
@@ -2109,7 +2117,7 @@ input[type=submit]:hover {
 
 @media (max-width:800px){
     .section11 {
-        width: 100%;
+        width: 80%;
         height: 130px;
         background-color: #80C2C1;
         margin-top: 300px;
