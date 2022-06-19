@@ -1263,6 +1263,20 @@ section {
     }
 }
 
+@media (max-width: 600px) {
+    .right-side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* max-width:100%; */
+        margin-top:-100px;
+        padding: 0px;
+        margin-left: 0%;
+        /* margin-left: 0px; */
+        /* max-width: 80%; */
+    }
+}
+
 
 /* end of section3 css */
 
@@ -1314,6 +1328,10 @@ section {
 }
 
 @media (max-width: 1200px) {
+    .section4 {
+        margin-top: 0px;
+    }
+    
     .section4-body {
         display: flex;
         flex-direction: column;
@@ -1329,6 +1347,12 @@ section {
     .section4-parent2 {
         margin-left: 0px;
         margin-top:50px;
+    }
+}
+
+@media (max-width: 400px) {
+    .section4 {
+        margin-top: -100px;
     }
 }
 
@@ -2285,6 +2309,13 @@ input[type=submit]:hover {
         margin-left: 0px;
     }
     
+}
+
+
+@media (max-width: 400px) {
+    .section11 {
+        margin-top: -100px;
+    }
 }
 
 /* end of section11 css */
