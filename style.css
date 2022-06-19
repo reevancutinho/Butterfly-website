@@ -2,6 +2,7 @@ html,
 body {
     margin: 0px;
     padding: 0px;
+    /* max-width: 100%; */
 }
 
 /* css for navigation bar starts here*/
@@ -1033,7 +1034,8 @@ section {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 50px;
+        margin-left: 0px;
+        padding: 0px;
         /* max-width:100%; */
         /* margin-right: -100px; */
     }
@@ -1045,6 +1047,7 @@ section {
         /* max-width:100%; */
         margin-left: 0px;
         margin-top:20px;
+        padding: 0px;
     }
 
     .left-side-first {
@@ -1061,6 +1064,7 @@ section {
         align-items: flex-start;
         margin-top: 50px;
         margin-left: 0px;
+        
     }
 
     .right-side-first {
